@@ -3,15 +3,15 @@
 
 # Violent Crime and Police Officer report
 
- -- United States Population count over the years 
+ -- United States Population Count Over The Years 
 
- -- Violent Crimes counts compared to Police Officers count over the years
-
-This project was to try to answer the following question:
+ -- Violent Crimes Counts Compared to Police Officers Count Over The Years
+    
+This project was an attempt to answer the following question:
 
   "Does the number of violent crimes rises or fall depending on the number of police officers in United States?"
 
-## The data gathered for this project is the yearly count for the following item:
+## The data gathered for this project is the yearly count for the following items:
 
   a. Population
   
@@ -19,7 +19,7 @@ This project was to try to answer the following question:
   
   c. Police Officers
       
-## 1. The following steps that this project take when it is executed:
+## 1. The following steps of this project:
 
   a.  Download/create the two csv files
   
@@ -27,21 +27,21 @@ This project was to try to answer the following question:
     
     - Number of Police Officers from another location
     
-  b.  Create a database only if it is not already created or connect to the database if it is already existed.   The name of the database is violentcrimes.db.   It will be created in the same folder where the python program and the three CSV files are located.
+  b.  Create a database only if it is not already created or connect to the database if it already exists.  The name of the database is violentcrimes.db.   It's created in the same folder as the python program and the three CSV files.
   
-  c.  Import the data from two csv files into two different tables in the sqlite database
-  
-      - It will first delete the tables if it existed (to help prevent imported duplicate csv files to the same table)
+  c.  In the SQLite database, import the data from two of the csv files into two different tables:
+        
+      - If the tables already exist, they will be deleted to prevent importing duplicate csv files into the same table
       
-      - Once the table is created, the data will then be imported
+      - Once the table is created, the data will be imported
   
-  d. Once the import is completed, a printout of the data in the two tables is displayed to confirm that the data was imported from the CSV file to the table in the sqlite database.
+  d. Once the import is completed, a printout of the data in the two tables is displayed. The printout will confirm that the data was correctly imported from the CSV file to the sqlite database tables.
   
-  e.  Created a query that linked between the two tables.   I will use the year data column to link both of the tables.   
+  e.  Create a query that links the two tables. I use the year data column to link both tables.  
+        
+  f.  Data results are graphed using matplotlib.
   
-  f.  Used matplotlib to graph my data results
-  
-## 2. You will need the following modules to run the program
+## 2.  Dependencies:
 
   a. sqlite3
   
@@ -51,7 +51,7 @@ This project was to try to answer the following question:
   
   d. panda 
 
-## 3.   make sure you have the following files in the same folder
+## 3.  Make sure the following files in the same folder:
 
   a.  yearlycrime.ipynb
 
@@ -76,4 +76,7 @@ References:
 
 2. Population and Violent Crimes Count - 
   https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1
+  
+3.  Help from mentors with the programming and the wording in my README.md.   Thank you!
+
 
