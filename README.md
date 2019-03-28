@@ -27,7 +27,7 @@ This project was an attempt to answer the following question:
     
     - Number of Police Officers from another location
     
-  b.  Create a database only if it is not already created or connect to the database if it already exists.  The name of the database is violentcrimes.db.   It's created in the same folder as the python program and the three CSV files.
+  b.  Create a database only if it is not already created or connect to the database if it already exists.  The name of the database is violentcrimes.db.   It's created in the same folder as the python program and the two CSV files.
   
   c.  In the SQLite database, import the data from two of the csv files into two different tables:
         
